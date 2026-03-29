@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salma & Sohayl | 1st Anniversary</title>
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Entry Question Popup -->
+    <div id="entry-popup" class="entry-popup">
+        <div class="popup-content">
+            <h2>Hold on!</h2>
+            <p>Before you see the website.. You need to answer this question.</p>
+            <p class="question">What is the date for the day we first spoke??</p>
+            <input type="text" id="date-answer" placeholder="DD/MM/YYYY">
+            <button id="submit-answer">Enter</button>
+            <p id="error-message" class="error-message">YOU DONT REMEMBER?? 😡</p>
+        </div>
+    </div>
+
+    <!-- Heart effect canvas background -->
+    <canvas id="heart-canvas"></canvas>
+
+    <section class="hero" id="home">
+        <div class="hero-content fade-in">
+            <h3 class="subtitle">Celebrating Our Love</h3>
+            <h1 class="title">Salma <span>&</span> Sohayl</h1>
+            <p class="date">Together since April 10, 2025</p>
+            <div class="scroll-indicator">
+                <p>Scroll for our story</p>
+                <i class="fa-solid fa-chevron-down mt-2"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="timer-section section-padding">
+        <div class="container fade-in">
+            <h2 class="section-title">We've Been Loving Each other Since...</h2>
+            <div class="timer-container">
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <p>Days</p>
+                </div>
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <p>Hours</p>
+                </div>
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <p>Minutes</p>
+                </div>
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <p>Seconds</p>
+                </div>
+            </div>
+            <p class="timer-text">Every second with you is a blessing.</p>
+        </div>
+    </section>
+
+    <section class="story-section section-padding" id="story">
+        <div class="container fade-in">
+            <h2 class="section-title">Our Story</h2>
+            <div class="glass-card story-card">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <p class="story-text">
+                    <span
+                        style="font-size: 2rem; display: inline-block; margin-bottom: 10px; font-weight: 500;">"وَخَلَقْنَاكُمْ
+                        أَزْوَاجًا"</span> <br><br>
+                    Today we celebrate our 1st anniversary, And i know that this year has been so hard on us,
+                    but I thank God and wanna remind you that after every fight we are nothing but stronger together.
+                    I am so proud of you ya 3omry, and wallahy you dont understand how much i am thankful for you being
+                    in my life, and to be the father of my children and my beloved husband till the day i die.
+                    You are fr what they say "Its too good to be true" and i really think about it alot, like how?? how
+                    are u this good, this kind, this gentle, this understanding, this patient, and mostly this loving.
+                    (Allahoma Barik).
+                    One year passed exactly after the happiest moment of my life, and im sure that it will never be the
+                    last until the day i die.
+                    Happy 1st Anniversary my Future Husband! <br><br>
+                    <i>With all my love,<br>Salma</i>
+                </p>
+                <i class="fa-solid fa-quote-right quote-icon right"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section section-padding" id="gallery">
+        <div class="container fade-in">
+            <h2 class="section-title">Our Memories</h2>
+            <p class="gallery-subtitle">A collection of our favorite moments together (not so many but in my heart there
+                are thousands of memories)</p>
+
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Media items will be injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <h2 class="footer-title">Forever & Always</h2>
+            <p>Made with ❤️ to celebrate us</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal for Gallery -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-content">
+            <!-- Content will be injected dynamically by JS -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
