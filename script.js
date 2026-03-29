@@ -57,8 +57,8 @@ document.querySelectorAll('.fade-in').forEach(element => {
 // Media files array
 const mediaFiles = [
     { type: 'video', src: 'imgs/ECFT0526.MP4' },
-    { type: 'video', src: 'imgs/B165.MP4' },
-    { type: 'image', src: 'imgs/IMG_9361.JPEG' },
+    { type: 'video', src: 'imgs/B165.mp4' },
+    { type: 'image', src: 'imgs/IMG_9361.jpeg' },
     { type: 'image', src: 'imgs/IMG_9484.JPG' },
     { type: 'image', src: 'imgs/IMG_9485.JPG' },
     { type: 'image', src: 'imgs/IMG_9486.JPG' },
